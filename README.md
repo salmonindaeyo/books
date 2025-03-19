@@ -1,9 +1,4 @@
-
 # ระบบยืมหนังสือแบบคร่าวๆ (5-6hr)
-
-
-
-
 
 ## Tech Stack
 
@@ -11,34 +6,34 @@
 
 **Server:** Node, Express , prisma
 
-
 # Set up project BE
 
 ```javascript
 cd be
 ```
 
-
 ### run db
 
 ```javascript
-make up  
+make up
 ```
+
 or
 
 ```javascript
 docker-compose up -d
 ```
 
-
 ### run server
 
 ```javascript
 bun i or npm i or yarn i
 ```
+
 ```javascript
 npx prisma migrate reset
 ```
+
 ```javascript
 bun run dev .... npm run dev
 ```
@@ -52,15 +47,29 @@ bun run dev .... npm run dev
 ```javascript
 cd fe
 ```
+
 ```javascript
 bun i or npm i or yarn i
 ```
+
 ```javascript
 bun run dev .... npm run dev
 ```
 
-# preview web
+# รหัสเข้าทดสอบ
 
+```
+admin@mail.com
+123456
+```
+
+```
+user@mail.com
+123456
+
+```
+
+# preview web
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1092374434012213258/1351979715199635456/image.png?ex=67dc58ba&is=67db073a&hm=f805959321245a08f942f3db9034b4611f2c7a19a2c16b5a14481f4439969e0e&)
 
